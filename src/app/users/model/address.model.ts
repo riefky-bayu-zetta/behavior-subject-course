@@ -1,6 +1,6 @@
 export interface Address {
   address: String,
-  zipcode: Number,
+  zipcode: String,
   city: String,
   region: String,
   country: String

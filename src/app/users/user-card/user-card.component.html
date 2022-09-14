@@ -1,1 +1,18 @@
-<p>user-card works!</p>
+<div class="p-grid">
+  <div class="p-col-6 card-container" *ngFor="let user of usersList">
+    <div class="p-grid">
+      <div class="p-col-12">
+        <span>Name : {{user.name}}</span>
+      </div>
+      <div class="p-col-12">
+        <span>Age : {{user.name}}</span>
+      </div>
+      <div class="p-col-6">
+        <span>Address : {{user.address.address}}</span>
+      </div>
+      <div class="p-col-6 button-alignment">
+        <button type="button" (click)="selectUser(user)">User Detail</button>
+      </div>
+    </div>
+  </div>
+</div>

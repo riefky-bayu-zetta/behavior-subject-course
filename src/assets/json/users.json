@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "_id": "001",
+      "name": "Arang",
+      "age": 18,
+      "address": {
+        "address": "Paris Street 13",
+        "zipcode": "75000",
+        "city": "Paris",
+        "region": "Paris",
+        "country": "France"
+      }
+    },
+    {
+      "_id": "002",
+      "name": "Bernad",
+      "age": 23,
+      "address": {
+        "address": "38 Baldock Street",
+        "zipcode": "HR8 1QT",
+        "city": "Newtown",
+        "region": "Newtown",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "_id": "003",
+      "name": "Coral",
+      "age": 20,
+      "address": {
+        "address": "Lamas Carbajal 69",
+        "zipcode": "41661",
+        "city": "Newtown",
+        "region": "Newtown",
+        "country": "United Kingdom"
+      }
+    }
+  ]
+}

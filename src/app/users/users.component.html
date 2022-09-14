@@ -1,1 +1,10 @@
-<p>users works!</p>
+<h1>List of Users</h1>
+
+<div class="p-grid">
+  <div class="p-col-6">
+    <app-user-card></app-user-card>
+  </div>
+  <div class="p-col-4 p-offset-2" *ngIf="selectedUser">
+    <app-user-detail></app-user-detail>
+  </div>
+</div>
