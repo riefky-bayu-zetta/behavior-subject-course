@@ -19,7 +19,6 @@ export class UsersService {
 
   dummyInitList() {
     this.fetchUserJson().subscribe(resp => {
-      console.log(resp);
       let usersData = resp.users;
       this.setAllUsersLists(usersData);
     })

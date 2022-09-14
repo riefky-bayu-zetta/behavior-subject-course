@@ -1,1 +1,34 @@
-<p>user-detail works!</p>
+<div class="p-grid" *ngIf="selectedUser">
+  <div class="p-col-12 card-container">
+    <div class="p-grid">
+      <div class="p-col-6">
+        <span>Name : {{ selectedUser.name }}</span>
+      </div>
+      <div class="p-col-6 button-alignment">
+        <button type="button" (click)="closeDetail()">Close</button>
+      </div>
+      <div class="p-col-12">
+        <span>Age : {{ selectedUser.age }}</span>
+      </div>
+      <div class="p-col-12 card-container">
+        <div class="p-grid">
+          <div class="p-col-12">
+            <span>Address : {{ selectedUser.address.address }}</span>
+          </div>
+          <div class="p-col-12">
+            <span>Zipcode : {{ selectedUser.address.zipcode }}</span>
+          </div>
+          <div class="p-col-12">
+            <span>City : {{ selectedUser.address.city }}</span>
+          </div>
+          <div class="p-col-12">
+            <span>Region : {{ selectedUser.address.region }}</span>
+          </div>
+          <div class="p-col-12">
+            <span>Address : {{ selectedUser.address.country }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
